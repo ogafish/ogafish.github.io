@@ -19,41 +19,41 @@
         <mxCell id="DpxwF1-qso09mQFzcC-0-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="切分算法或者预训练模型" vertex="1">
           <mxGeometry height="30" width="60" x="290" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="DpxwF1-qso09mQFzcC-0-5" edge="1" parent="1" source="DpxwF1-qso09mQFzcC-0-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" value="">
+        <mxCell id="DpxwF1-qso09mQFzcC-0-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DpxwF1-qso09mQFzcC-0-6" value="">
           <mxGeometry height="50" relative="1" width="50" x="-0.0047" as="geometry">
-            <mxPoint x="430" y="340" as="sourcePoint" />
+            <mxPoint x="350" y="100" as="sourcePoint" />
             <mxPoint x="450" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-5" edge="1" parent="1" source="DpxwF1-qso09mQFzcC-0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PAdSHeDhh5AMWxJ27DZJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DpxwF1-qso09mQFzcC-0-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="带时间戳&lt;div&gt;原始&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;文本&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="390" y="190" as="geometry" />
+          <mxGeometry height="60" width="120" x="640" y="450" as="geometry" />
         </mxCell>
         <mxCell id="DpxwF1-qso09mQFzcC-0-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="音频转录ASR" vertex="1">
           <mxGeometry height="30" width="60" x="340" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="DpxwF1-qso09mQFzcC-0-11" parent="1" style="swimlane;startSize=20;horizontal=1;containerType=tree;transparentBounds=1;groupPadding=20 70 160 72;" value="第一次粗采" vertex="1">
+        <mxCell id="DpxwF1-qso09mQFzcC-0-11" parent="1" style="swimlane;startSize=20;horizontal=1;containerType=tree;transparentBounds=1;groupPadding=20 20 160 72;" value="首次粗提取并入库" vertex="1">
           <mxGeometry as="geometry" />
         </mxCell>
         <mxCell id="DpxwF1-qso09mQFzcC-0-13" parent="DpxwF1-qso09mQFzcC-0-11" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="平均采帧&lt;div&gt;（需保证第一次采帧量少于预算&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="120" x="262.38" y="400" as="geometry" />
-        </mxCell>
-        <mxCell id="DpxwF1-qso09mQFzcC-0-14" parent="DpxwF1-qso09mQFzcC-0-11" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontColor=#FF1F6A;" value="向量库或知识图谱" vertex="1">
-          <mxGeometry height="40" width="120" x="377.63" y="810" as="geometry" />
+          <mxGeometry height="40" width="120" x="262" y="380" as="geometry" />
         </mxCell>
         <mxCell id="DpxwF1-qso09mQFzcC-0-20" parent="DpxwF1-qso09mQFzcC-0-11" style="whiteSpace=wrap;html=1;" value="提取出带时间戳的教学视频画面文字内容（ppt、板书、字幕）" vertex="1">
-          <mxGeometry height="60" width="120" x="142.38" y="560" as="geometry" />
+          <mxGeometry height="60" width="120" x="142" y="540" as="geometry" />
         </mxCell>
         <mxCell id="DpxwF1-qso09mQFzcC-0-19" edge="1" parent="DpxwF1-qso09mQFzcC-0-11" source="DpxwF1-qso09mQFzcC-0-10" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DpxwF1-qso09mQFzcC-0-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DpxwF1-qso09mQFzcC-0-21" edge="1" parent="DpxwF1-qso09mQFzcC-0-11" source="DpxwF1-qso09mQFzcC-0-13" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="DpxwF1-qso09mQFzcC-0-10" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="322.38" y="440" as="sourcePoint" />
-            <mxPoint x="202.38" y="560" as="targetPoint" />
+            <mxPoint x="322" y="420" as="sourcePoint" />
+            <mxPoint x="202" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DpxwF1-qso09mQFzcC-0-10" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="预训练模型或本地部署模型（不训练）OCR" vertex="1">
-          <mxGeometry height="30" width="60" x="222.38" y="490" as="geometry" />
+          <mxGeometry height="30" width="60" x="222" y="470" as="geometry" />
         </mxCell>
         <mxCell id="DpxwF1-qso09mQFzcC-0-22" edge="1" parent="DpxwF1-qso09mQFzcC-0-11" source="DpxwF1-qso09mQFzcC-0-13" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;startArrow=none;endArrow=none;" target="DpxwF1-qso09mQFzcC-0-23" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -63,8 +63,52 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-21" edge="1" parent="DpxwF1-qso09mQFzcC-0-11" source="DpxwF1-qso09mQFzcC-0-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;defaultLabelBackgroundColor=page;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.638;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="PAdSHeDhh5AMWxJ27DZJ-4">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint x="339.62" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DpxwF1-qso09mQFzcC-0-23" parent="DpxwF1-qso09mQFzcC-0-11" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="提取出画面中的公式&lt;div&gt;并对画面内容进行理解性描述&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="377.63" y="555" as="geometry" />
+          <mxGeometry height="60" width="120" x="349.62" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-4" parent="DpxwF1-qso09mQFzcC-0-11" style="rounded=1;whiteSpace=wrap;html=1;" value="局部时间范围内跨模态概念对齐&lt;div&gt;（将教师的讲解内容和根据画面提取的内容在时间和意义层面进行对应&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200.38" x="249.62" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-3" edge="1" parent="DpxwF1-qso09mQFzcC-0-11" source="DpxwF1-qso09mQFzcC-0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PAdSHeDhh5AMWxJ27DZJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-22" edge="1" parent="DpxwF1-qso09mQFzcC-0-11" source="PAdSHeDhh5AMWxJ27DZJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PAdSHeDhh5AMWxJ27DZJ-4">
+          <mxGeometry relative="1" x="0.6447" as="geometry">
+            <Array as="points">
+              <mxPoint x="549.6" y="650" />
+              <mxPoint x="399.9" y="650" />
+            </Array>
+            <mxPoint x="589.62" y="615" as="sourcePoint" />
+            <mxPoint x="439.62" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-6" parent="DpxwF1-qso09mQFzcC-0-11" style="rounded=1;whiteSpace=wrap;html=1;" value="单段视频时间范围内的音频转录本内容" vertex="1">
+          <mxGeometry height="60" width="120" x="489.62" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-24" edge="1" parent="DpxwF1-qso09mQFzcC-0-11" source="PAdSHeDhh5AMWxJ27DZJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PAdSHeDhh5AMWxJ27DZJ-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="202" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-25" parent="DpxwF1-qso09mQFzcC-0-11" style="rounded=1;whiteSpace=wrap;html=1;" value="将对齐后经处理的内容保存到向量库或知识图谱库" vertex="1">
+          <mxGeometry height="60" width="200.38" x="249.62" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-27" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="原始内容需保存" vertex="1">
+          <mxGeometry height="30" width="60" x="82" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-28" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="原始内容需保存" vertex="1">
+          <mxGeometry height="30" width="60" x="289.62" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-30" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="工作点1，需要在现有方法上改进或适配" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="原始内容需保存" vertex="1">
+          <mxGeometry height="30" width="60" x="760" y="470" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
