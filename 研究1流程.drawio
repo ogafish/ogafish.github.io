@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zYvCybR6aUHrVQH73oSr">
-    <mxGraphModel dx="926" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1943" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,12 @@
         <mxCell id="DpxwF1-qso09mQFzcC-0-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="音频转录ASR" vertex="1">
           <mxGeometry height="30" width="60" x="340" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="DpxwF1-qso09mQFzcC-0-11" parent="1" style="swimlane;startSize=20;horizontal=1;containerType=tree;transparentBounds=1;groupPadding=20 20 160 72;" value="首次粗提取并入库" vertex="1">
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-38" edge="1" parent="1" source="DpxwF1-qso09mQFzcC-0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="PAdSHeDhh5AMWxJ27DZJ-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="319.6199999999999" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpxwF1-qso09mQFzcC-0-11" parent="1" style="swimlane;startSize=20;horizontal=1;containerType=tree;transparentBounds=1;groupPadding=20 20 20 72;" value="首次粗提取并入库" vertex="1">
           <mxGeometry as="geometry" />
         </mxCell>
         <mxCell id="DpxwF1-qso09mQFzcC-0-13" parent="DpxwF1-qso09mQFzcC-0-11" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="平均采帧&lt;div&gt;（需保证第一次采帧量少于预算&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -68,11 +73,11 @@
             <mxPoint x="339.62" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DpxwF1-qso09mQFzcC-0-23" parent="DpxwF1-qso09mQFzcC-0-11" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="提取出画面中的公式&lt;div&gt;并对画面内容进行理解性描述&lt;/div&gt;" vertex="1">
+        <mxCell id="DpxwF1-qso09mQFzcC-0-23" parent="DpxwF1-qso09mQFzcC-0-11" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="提取出画面中的公式、图示、符号&lt;div&gt;并对画面内容进行理解性描述&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="349.62" y="535" as="geometry" />
         </mxCell>
-        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-4" parent="DpxwF1-qso09mQFzcC-0-11" style="rounded=1;whiteSpace=wrap;html=1;" value="局部时间范围内跨模态概念对齐&lt;div&gt;（将教师的讲解内容和根据画面提取的内容在时间和意义层面进行对应&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="200.38" x="249.62" y="680" as="geometry" />
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-4" parent="DpxwF1-qso09mQFzcC-0-11" style="rounded=1;whiteSpace=wrap;html=1;" value="局部时间范围内跨模态概念对齐&lt;div&gt;（将教师的讲解内容和根据画面提取的内容在时间和意义层面进行对应，保留讲解场景形成让人身临教学现场的一段话&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200.38" x="249.62" y="680" as="geometry" />
         </mxCell>
         <mxCell id="PAdSHeDhh5AMWxJ27DZJ-3" edge="1" parent="DpxwF1-qso09mQFzcC-0-11" source="DpxwF1-qso09mQFzcC-0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PAdSHeDhh5AMWxJ27DZJ-4">
           <mxGeometry relative="1" as="geometry" />
@@ -107,8 +112,54 @@
         <mxCell id="PAdSHeDhh5AMWxJ27DZJ-30" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="工作点1，需要在现有方法上改进或适配" vertex="1">
           <mxGeometry height="30" width="60" x="460" y="710" as="geometry" />
         </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-31" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="第一部分结果" vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="795" as="geometry" />
+        </mxCell>
         <mxCell id="PAdSHeDhh5AMWxJ27DZJ-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="原始内容需保存" vertex="1">
           <mxGeometry height="30" width="60" x="760" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-90" edge="1" parent="1" source="PAdSHeDhh5AMWxJ27DZJ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PAdSHeDhh5AMWxJ27DZJ-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="1571.2048192771085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-66" parent="1" style="swimlane;startSize=20;horizontal=1;containerType=tree;transparentBounds=1;groupPadding=20 110 40 120;" value="补采判断" vertex="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-75" edge="1" parent="PAdSHeDhh5AMWxJ27DZJ-66" source="PAdSHeDhh5AMWxJ27DZJ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classicThin;defaultLabelBackgroundColor=page;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="PAdSHeDhh5AMWxJ27DZJ-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="1069.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-88" edge="1" parent="PAdSHeDhh5AMWxJ27DZJ-66" source="PAdSHeDhh5AMWxJ27DZJ-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endFill=1;" target="PAdSHeDhh5AMWxJ27DZJ-87">
+          <mxGeometry relative="1" x="-0.0019" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-68" parent="PAdSHeDhh5AMWxJ27DZJ-66" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="粗采向量库或知识图谱库（图结构）" vertex="1">
+          <mxGeometry height="40" width="120" x="110.19" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-70" parent="PAdSHeDhh5AMWxJ27DZJ-66" style="swimlane;startSize=20;horizontal=1;containerType=tree;transparentBounds=1;groupPadding=20 80 20 70;" value="教学重要性" vertex="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-72" parent="PAdSHeDhh5AMWxJ27DZJ-70" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="特殊事件评价（问答、导师重点强调或指出重点语句）、所占视频段总时长、关键内容在ASR中相关文字占比" vertex="1">
+          <mxGeometry height="110" width="120" x="-10" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-84" parent="PAdSHeDhh5AMWxJ27DZJ-70" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="全库中该向量或节点中关键内容出现频率、节点的权重、边的连通性等图结构性质打分" vertex="1">
+          <mxGeometry height="90" width="120" x="-10" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-85" parent="PAdSHeDhh5AMWxJ27DZJ-70" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="图性质分析" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-87" parent="PAdSHeDhh5AMWxJ27DZJ-66" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="信息损失率判断&lt;div&gt;（1.直接通过库中节点内容和音频转录本进行比对&lt;/div&gt;&lt;div&gt;2.对单个节点进行判断：若其邻居节点的内容描述相对该节点明显丰富则考虑此处是否存在遗漏导致信息损失率过大，亦或者是单纯该知识点内容较少）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="200.38" x="230.19" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-89" parent="PAdSHeDhh5AMWxJ27DZJ-66" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="还有其他判断指标待定" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="形成补采打分" vertex="1">
+          <mxGeometry height="60" width="120" x="135" y="1541.2048192771085" as="geometry" />
+        </mxCell>
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-92" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="待定：是针对某一个视频段进行补采打分还是说针对图节点或向量进行补采打分（应该是对节点或者向量进行补采打分然后）" vertex="1">
+          <mxGeometry height="120" width="230" x="290" y="1560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
