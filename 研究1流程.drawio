@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zYvCybR6aUHrVQH73oSr">
-    <mxGraphModel dx="3633" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1599" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -303,8 +303,8 @@
         <mxCell id="-9eMQAmwF-Dwq-j7aN0i-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p&gt;两个不同难点：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;对象指向判定&lt;/strong&gt;：后面说“这个公式”，究竟指前面的A还是B？&lt;/li&gt;&lt;li&gt;&lt;strong&gt;解释关系识别&lt;/strong&gt;：已经明确在讲A，但这段内容是在说明用途、补充条件，还是解释推导理由？&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="30" width="220" x="930" y="1090" as="geometry" />
         </mxCell>
-        <mxCell id="-9eMQAmwF-Dwq-j7aN0i-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="要做跨时间教学解释关系融合，需要先分析当前基线的不足，或者其不适配教学领域且有某些针对教育视频特殊性的点无法做好，这里需要比较充足的证据和论述" vertex="1">
-          <mxGeometry height="60" width="300" x="810" y="1250" as="geometry" />
+        <mxCell id="-9eMQAmwF-Dwq-j7aN0i-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="要做跨时间教学解释关系融合，需要先分析当前基线的不足，操作上一个是看论文一个是具体检验试验，极限方法对于教学视频所得到的产物是否有漏洞，或者其不适配教学领域且有某些针对教育视频特殊性的点无法做好，这里需要比较充足的证据和论述" vertex="1">
+          <mxGeometry height="80" width="300" x="810" y="1250" as="geometry" />
         </mxCell>
         <mxCell id="-9eMQAmwF-Dwq-j7aN0i-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="方法2是做检索相关工作还是做补采判断待定" vertex="1">
           <mxGeometry height="30" width="270" x="675" y="1400" as="geometry" />
