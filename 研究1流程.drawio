@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="zYvCybR6aUHrVQH73oSr">
-    <mxGraphModel dx="2756" dy="1250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1943" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,8 +115,8 @@
         <mxCell id="PAdSHeDhh5AMWxJ27DZJ-28" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="原始内容需保存" vertex="1">
           <mxGeometry height="30" width="60" x="269.62" y="565" as="geometry" />
         </mxCell>
-        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-30" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="跨模态短时间内" vertex="1">
-          <mxGeometry height="30" width="60" x="169.62" y="715" as="geometry" />
+        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-30" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="跨模态短时间内多源同步融合" vertex="1">
+          <mxGeometry height="60" width="60" x="160" y="700" as="geometry" />
         </mxCell>
         <mxCell id="PAdSHeDhh5AMWxJ27DZJ-31" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="第一部分结果" vertex="1">
           <mxGeometry height="30" width="60" x="529.62" y="925" as="geometry" />
@@ -145,8 +145,11 @@
         <mxCell id="-9eMQAmwF-Dwq-j7aN0i-21" parent="DpxwF1-qso09mQFzcC-0-11" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="跨时间教学解释关系对齐" vertex="1">
           <mxGeometry height="60" width="120" x="470" y="710" as="geometry" />
         </mxCell>
-        <mxCell id="-9eMQAmwF-Dwq-j7aN0i-27" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="跨时间范围" vertex="1">
-          <mxGeometry height="30" width="60" x="490" y="780" as="geometry" />
+        <mxCell id="-9eMQAmwF-Dwq-j7aN0i-27" parent="DpxwF1-qso09mQFzcC-0-11" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="跨时间范围融合对齐" vertex="1">
+          <mxGeometry height="45" width="60" x="490" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="-9eMQAmwF-Dwq-j7aN0i-32" parent="DpxwF1-qso09mQFzcC-0-11" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="320" width="720" x="450" y="670" as="geometry" />
         </mxCell>
         <mxCell id="PAdSHeDhh5AMWxJ27DZJ-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="原始内容需保存" vertex="1">
           <mxGeometry height="30" width="60" x="1200" y="395" as="geometry" />
@@ -202,9 +205,6 @@
         </mxCell>
         <mxCell id="PAdSHeDhh5AMWxJ27DZJ-93" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="对于高于补采分阈值的视频段进行二次细处理" vertex="1">
           <mxGeometry height="60" width="120" x="125" y="1810.0048192771085" as="geometry" />
-        </mxCell>
-        <mxCell id="PAdSHeDhh5AMWxJ27DZJ-95" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="补采判断是个大头，里面有具体算法需要研究" vertex="1">
-          <mxGeometry height="30" width="150.38" x="170" y="1020" as="geometry" />
         </mxCell>
         <mxCell id="PAdSHeDhh5AMWxJ27DZJ-124" edge="1" parent="1" source="PAdSHeDhh5AMWxJ27DZJ-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="PAdSHeDhh5AMWxJ27DZJ-123" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -286,10 +286,22 @@
           <mxGeometry height="60" width="120" x="80" y="2480" as="geometry" />
         </mxCell>
         <mxCell id="PAdSHeDhh5AMWxJ27DZJ-123" parent="1" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=20;horizontal=1;" value="方法2：检索相关研究" vertex="1">
-          <mxGeometry height="60" width="120" x="125" y="2910" as="geometry" />
+          <mxGeometry height="60" width="120" x="125" y="2800" as="geometry" />
         </mxCell>
         <mxCell id="-9eMQAmwF-Dwq-j7aN0i-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="总体上类似粗采" vertex="1">
           <mxGeometry height="30" width="60" x="350" y="2040" as="geometry" />
+        </mxCell>
+        <mxCell id="-9eMQAmwF-Dwq-j7aN0i-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="-9eMQAmwF-Dwq-j7aN0i-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="920" y="1185" as="sourcePoint" />
+            <mxPoint x="970" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9eMQAmwF-Dwq-j7aN0i-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="当前选择：就做跨时间教学解释关系对齐，&lt;span style=&quot;color: rgb(0, 0, 153);&quot;&gt;短时间内跨模态多元同步融合是待定前置环节，不作为研究创新重点&lt;/span&gt;，补采判断及二次细采&lt;span style=&quot;color: rgb(255, 19, 46);&quot;&gt;可作为跨时间教学解释关系对齐的增强手段&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="290" x="810" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="-9eMQAmwF-Dwq-j7aN0i-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p&gt;两个不同难点：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;对象指向判定&lt;/strong&gt;：后面说“这个公式”，究竟指前面的A还是B？&lt;/li&gt;&lt;li&gt;&lt;strong&gt;解释关系识别&lt;/strong&gt;：已经明确在讲A，但这段内容是在说明用途、补充条件，还是解释推导理由？&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="930" y="1090" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
